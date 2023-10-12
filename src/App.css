@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+}
+.App{
+  text-align: center;
+  height: 98vh;
+  margin: 0px;
+  padding:0px;
+}
+.color-picker{
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+.color-list{
+  height: 90%;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  max-width: 800px;
+  flex-wrap:wrap;
+}
+.color-square{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.pick_col{
+  margin-top : 1rem;
+  padding: 10px 20px;
+  width: fit-content;
+  background-color: #198754;
+  border: 0;
+  outline:none;
+  font-size:16px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
